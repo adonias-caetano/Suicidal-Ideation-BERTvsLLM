@@ -12,6 +12,7 @@ This repository provides BERT codes used to identify suicidal ideation in non-cl
   </a>
 </div>
 
+<div align="justify">
 ## 📋 Requirements
 
 * Google Colab
@@ -42,4 +43,4 @@ Please, feel free to contact us for any questions: [![Gmail Badge](https://img.s
 
 ## 📄 License
 
-
+</div>
