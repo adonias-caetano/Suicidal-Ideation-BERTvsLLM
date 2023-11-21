@@ -2,12 +2,14 @@
 
 <!-- PROJECT LOGO -->
 <br />
+
+ <h2 align="center">Comparing BERT-based Models and LLMs for Identifying Suicidal Ideation in Brazilian Portuguese Language</h2>
+
 <div align="center">
   <a href="https://github.com/adonias-caetano/Suicidal-Ideation-BERTvsLLM.git">
     <img src="logo_boamente.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Comparing BERT-based Models and LLMs for Identifying Suicidal Ideation in Brazilian Portuguese Language</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
