@@ -10,8 +10,7 @@ This repository provides BERT codes used to identify suicidal ideation in non-cl
   <a href="https://github.com/adonias-caetano/Suicidal-Ideation-BERTvsLLM.git">
     <img src="logo_boamente.png" alt="Logo" width="80" height="80">
   </a>
-
-text-align: justify;
+</div>
 
 ## 📋 Requirements
 
