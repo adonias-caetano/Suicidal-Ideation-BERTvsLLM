@@ -11,6 +11,8 @@ This repository provides BERT codes used to identify suicidal ideation in non-cl
     <img src="logo_boamente.png" alt="Logo" width="80" height="80">
   </a>
 
+text-align: justify;
+
 ## 📋 Requirements
 
 * Google Colab
