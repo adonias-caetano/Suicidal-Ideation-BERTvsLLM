@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/adonias-caetano/Suicidal-Ideation-BERTvsLLM.git">
+    <img src="logo_boamente.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Comparing BERT-based Models and LLMs for Identifying Suicidal Ideation in Brazilian Portuguese Language</h3>
