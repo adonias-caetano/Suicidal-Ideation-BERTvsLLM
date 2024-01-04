@@ -17,24 +17,29 @@ This repository provides BERT codes used to identify suicidal ideation in non-cl
  ## 📋 Requirements
 
 * Google Colab
+* python pandas library
+* python unidecode library
+* python word_tokenize, stopwords, sent_tokenize (nltk) libraries
+* python wordcloud library
+* python matplotlib.pyplot library
+* python transformers library
+* python seaborn library
+* python imblearn.under_sampling library
+* python sklearn.model_selection library
 
 ## 📖  Dataset
 
-The <a href="https://zenodo.org/records/10070747"><strong>original dataset</strong></a> consists of 2691 sentences without suicidal ideation and 1097 sentences with suicidal ideation in PT-BR. The dataset is available in Comma-separated values (CSV) format in two columns: text and target, respectively the phrase and class 0 (negative) or 1 (positive). 
+The <a href="https://zenodo.org/records/10070747"><strong>original dataset</strong></a> consists of 2691 sentences without suicidal ideation and 1097 sentences with suicidal ideation in PT-BR. The dataset is available in Comma-separated values (CSV) format in two columns: text and target, respectively the sentence and class 0 (negative) or 1 (positive). 
 
-Building this dataset is detailed in <a href="https://www.mdpi.com/2227-9032/10/4/698"><strong>paper about Boamente System</strong></a>.
+## 🛠 Fine-tuning BERT-based Models
 
-## Fine-tuning BERT-based Models
+Utilizamos dois modelos baseados em BERT pré-treinados em português brasileiro, a saber, BERTimbau Base (BERT-Base) e BERTimbau Large (BERT-Large) de <a href="https://github.com/neuralmind-ai/portuguese -bert/"><strong>BERTimbau - BERT português</strong></a>. O terceiro modelo foi a <a href="https://github.com/google-research/bert/blob/master/multilingual.md"><strong>base multilíngue do BERT</strong></a>.
 
-We use two BERT-based models pre-trained in Brazilian Portuguese, namely, BERTimbau Base (BERT-Base) and BERTimbau Large (BERT-Large) from <a href="https://github.com/neuralmind-ai/portuguese-bert/"><strong>BERTimbau - Portuguese BERT</strong></a>. The BERT-Base and BERT-Large Cased variants were trained on BrWaC (Brazilian Web as Corpus), a large Portuguese corpus, for 1,000,000 steps, using full-word masking. The third model was the <a href="https://github.com/google-research/bert/blob/master/multilingual.md"><strong>BERT multilingual base</strong></a>. This model was pre-trained on the top 104 languages with the largest Wikipedia using a masked language modeling (MLM) objective.
+O otimizador AdamW foi utilizado para ajustar parâmetros no modelo, tamanho de lote de 16, configurado com taxa de aprendizado igual a 2e-6 em sete épocas de treinamento. A validação cruzada K-fold foi realizada dividindo o conjunto de dados pré-processado em 80% para treinamento e 20% para validação.
 
-For the three BERT-based models, the steps of tokenization (BertTokenizer), encoding the tokens into numeric data, using the ecode function to obtain input IDs and attention masks from the datasets, pytorch Dataset and DataLoader to divide the batch data. We started Huggingface's BertForSequenceClassification model to tune the pre-trained BERT mode for classification tasks easily. The AdamW optimizer was used to adjust parameters in the model, batch size of 16, configured with a learning rate equal to 2e-6 in seven training epochs.
+## 🤖 Access our article in Acta Psychiatrica Scandinavica 
 
-K-fold cross-validation was performed by dividing the pre-processed dataset into 80% for training and 20% for validation. The output of each model is the probability of the sentence belonging to the positive and negative class, with the one with the highest probability being the predicted output.
-
-## 🤖 Access our article in International Journal of Medical Informatics
-
-### [Science direct](https://www.sciencedirect.com/journal/international-journal-of-medical-informatics)
+### [TO BE DEFINED](https://onlinelibrary.wiley.com/journal/16000447)
 
 ## 👏 Contributing
  
@@ -44,4 +49,11 @@ Please, feel free to contact us for any questions: [![Gmail Badge](https://img.s
 
 ## 📄 License
 
-</div>
+### <a href="https://doi.org/10.5281/zenodo.10070747"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a>
+https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg
+ 
+
+## 📚 References
+
+* <a href="https://www.mdpi.com/2227-9032/10/4/698"><strong>Paper about Boamente System</strong></a>.
+* <a href="https://www.sciencedirect.com/science/article/pii/S1877050922009668"><strong>Paper about XAI Boamente System</strong></a>.
