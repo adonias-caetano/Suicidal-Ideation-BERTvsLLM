@@ -49,9 +49,7 @@ Please, feel free to contact us for any questions: [![Gmail Badge](https://img.s
 
 ## 📄 License
 
-### <a href="https://doi.org/10.5281/zenodo.10070747"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a>
-https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg
- 
+### <a href="https://doi.org/10.5281/zenodo.10070747"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a> 
 
 ## 📚 References
 
