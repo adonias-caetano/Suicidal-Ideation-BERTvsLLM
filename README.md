@@ -33,9 +33,9 @@ The <a href="https://zenodo.org/records/10070747"><strong>original dataset</stro
 
 ## 🛠 Fine-tuning BERT-based Models
 
-Utilizamos dois modelos baseados em BERT pré-treinados em português brasileiro, a saber, BERTimbau Base (BERT-Base) e BERTimbau Large (BERT-Large) de <a href="https://github.com/neuralmind-ai/portuguese -bert/"><strong>BERTimbau - BERT português</strong></a>. O terceiro modelo foi a <a href="https://github.com/google-research/bert/blob/master/multilingual.md"><strong>base multilíngue do BERT</strong></a>.
+We use two BERT-based models pre-trained in Brazilian Portuguese, namely, BERTimbau Base (BERT-Base) and BERTimbau Large (BERT-Large) from <a href="https://github.com/neuralmind-ai/portuguese-bert/"><strong>BERTimbau - Portuguese BERT</strong></a>.  The third model was the <a href="https://github.com/google-research/bert/blob/master/multilingual.md"><strong>BERT multilingual base</strong></a>. 
 
-O otimizador AdamW foi utilizado para ajustar parâmetros no modelo, tamanho de lote de 16, configurado com taxa de aprendizado igual a 2e-6 em sete épocas de treinamento. A validação cruzada K-fold foi realizada dividindo o conjunto de dados pré-processado em 80% para treinamento e 20% para validação.
+The AdamW optimizer was used to adjust parameters in the model, batch size of 16, configured with a learning rate equal to 2e-6 in seven training epochs. K-fold cross-validation was performed by dividing the pre-processed dataset into 80% for training and 20% for validation. 
 
 ## 🤖 Access our article in Acta Psychiatrica Scandinavica 
 
