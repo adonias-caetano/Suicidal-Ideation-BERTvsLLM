@@ -1,4 +1,4 @@
- # Comparing BERT-based Models and LLMs for Identifying Suicidal Ideation in Brazilian Portuguese Language
+ # Performance Evaluation of BERT-based Models and Large Language Models for Identifying Suicidal Ideation
 
 <p align="center">
 This repository provides BERT codes used to identify suicidal ideation in non-clinical texts in Brazilian Portuguese.
