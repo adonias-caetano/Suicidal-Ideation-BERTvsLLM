@@ -1,4 +1,4 @@
- # Performance Evaluation of BERT-based Models and Large Language Models for Identifying Suicidal Ideation
+ # Comparative Analysis of BERT-Based and Large Language Models for Detecting Suicidal Ideation: A Performance Evaluation Study
 
 <p align="center">
 This repository provides BERT codes used to identify suicidal ideation in non-clinical texts in Brazilian Portuguese.
