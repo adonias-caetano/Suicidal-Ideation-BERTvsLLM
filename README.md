@@ -37,7 +37,7 @@ We use two BERT-based models pre-trained in Brazilian Portuguese, namely, BERTim
 
 The AdamW optimizer was used to adjust parameters in the model, batch size of 16, configured with a learning rate equal to 2e-6 in seven training epochs. K-fold cross-validation was performed by dividing the pre-processed dataset into 80% for training and 20% for validation. 
 
-## 🤖 Access our article in Review
+## 🤖 Access our published paper
 
 Article accepted for publication in the <a href="https://cadernos.ensp.fiocruz.br/ojs/index.php/csp"> <strong>Cadernos de Saúde Pública</strong></a>
 
