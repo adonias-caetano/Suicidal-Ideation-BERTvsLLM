@@ -52,9 +52,7 @@ Please, feel free to contact us for any questions: [![Gmail Badge](https://img.s
 ## 📄 License
 
 ### <a href="https://doi.org/10.5281/zenodo.10070747"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a> 
-### <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a> 
-
-
+### <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://licensebuttons.net/l/by/4.0//88x31.png" alt="DOI"></a> 
 
 ## 📚 References
 
