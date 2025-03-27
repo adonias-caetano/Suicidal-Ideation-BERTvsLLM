@@ -39,7 +39,7 @@ The AdamW optimizer was used to adjust parameters in the model, batch size of 16
 
 ## 🤖 Access our published paper
 
-Article accepted for publication in the <a href="https://cadernos.ensp.fiocruz.br/ojs/index.php/csp"> <strong>Cadernos de Saúde Pública</strong></a>
+Published paper in the <a href="https://cadernos.ensp.fiocruz.br/ojs/index.php/csp"> <strong>Cadernos de Saúde Pública</strong></a>
 
 ### [Paper Link](https://www.scielo.br/j/csp/a/XrbVfvybPj9tvJ8qWv7j8VC/?lang=en) 
 
@@ -52,6 +52,9 @@ Please, feel free to contact us for any questions: [![Gmail Badge](https://img.s
 ## 📄 License
 
 ### <a href="https://doi.org/10.5281/zenodo.10070747"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a> 
+### <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10070747.svg" alt="DOI"></a> 
+
+
 
 ## 📚 References
 
