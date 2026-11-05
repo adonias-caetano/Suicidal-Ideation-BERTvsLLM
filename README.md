@@ -47,7 +47,7 @@ Published paper in the <a href="https://cadernos.ensp.fiocruz.br/ojs/index.php/c
  
 If there is a bug, or other improvement you would like to report or request, we encourage you to contribute.
 
-Please, feel free to contact us for any questions: [![Gmail Badge](https://img.shields.io/badge/-ariel.teles@ifma.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ariel.teles@ifma.edu.br)](mailto:ariel.teles@ifma.edu.br )
+Please, feel free to contact us for any questions: [![Gmail Badge](https://img.shields.io/badge/-ariel@ufdpar.edu.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ariel.teles@ifma.edu.br)](mailto:ariel@ufdpar.edu.br )
 
 ## 📄 License
 
@@ -56,5 +56,9 @@ Please, feel free to contact us for any questions: [![Gmail Badge](https://img.s
 
 ## 📚 References
 
-* <a href="https://www.mdpi.com/2227-9032/10/4/698"><strong>Paper about Boamente System</strong></a>.
-* <a href="https://www.sciencedirect.com/science/article/pii/S1877050922009668"><strong>Paper about XAI Boamente System</strong></a>.
+* <a href="https://www.mdpi.com/2227-9032/10/4/698"><strong>Boamente: Smart Monitoring of Suicidal Ideation</strong></a>.
+* <a href="https://www.sciencedirect.com/science/article/pii/S1877050922009668"><strong>Explaining Boamente: AI for Suicidal Ideation Detection</strong></a>.
+* <a href="https://jhi.sbis.org.br/index.php/jhi-sbis/article/view/1321"><strong>Detecting Suicidal Ideation with Semi-Supervised Learning</strong></a>.
+* <a href="https://ieeexplore.ieee.org/document/10945851"><strong>Explainable AI and Professional Trust in Suicide Prevention</strong></a>.
+* <a href="https://ieeexplore.ieee.org/document/11058904"><strong>LLMs for Detecting and Explaining Suicidal Ideation</strong></a>.
+
